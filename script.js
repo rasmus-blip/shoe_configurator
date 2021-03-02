@@ -20,7 +20,7 @@ function displaySVG(mySVGData) {
 }
 
 function eventListenersOnParts() {
-  const shoeParts = document.querySelectorAll(".showpart");
+  const shoeParts = document.querySelectorAll(".shoepart");
   shoeParts.forEach((shoePart) => {
     shoePart.addEventListener("click", shoePartClicked);
     shoePart.addEventListener("mouseover", shoePartHover);
