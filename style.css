@@ -1,11 +1,25 @@
+@font-face {
+    font-family: 'my_pumaregular';
+    src: url('webfontkit-20210302-101249/mypuma__-webfont.woff2') format('woff2'),
+         url('webfontkit-20210302-101249/mypuma__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: 'my_pumaregular';
+    font-size: 4rem;
+}
+
+
 #shadow {
     pointer-events: none;
 }
 
 section {
     width: 50vw; 
-
-
+    margin-left: 150px;
 }
 
 .showpart {
